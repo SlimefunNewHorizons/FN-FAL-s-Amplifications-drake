@@ -1,6 +1,6 @@
 package ne.fnfal113.fnamplifications.mysteriousitems.listener;
 
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import ne.fnfal113.fnamplifications.mysteriousitems.abstracts.AbstractStick;
 
 import org.bukkit.Material;

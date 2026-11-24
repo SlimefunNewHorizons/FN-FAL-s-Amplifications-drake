@@ -1,18 +1,18 @@
 package ne.fnfal113.fnamplifications.machines.abstracts;
 
-import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup;
-import com.github.drakescraft_labs.slimefun4.api.items.ItemState;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
-import com.github.drakescraft_labs.slimefun4.core.attributes.EnergyNetComponent;
-import com.github.drakescraft_labs.slimefun4.core.networks.energy.EnergyNetComponentType;
-import com.github.drakescraft_labs.slimefun4.libraries.dough.items.CustomItemStack;
-import com.github.drakescraft_labs.slimefun4.libraries.dough.skins.PlayerHead;
-import com.github.drakescraft_labs.slimefun4.libraries.dough.skins.PlayerSkin;
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun4.api.items.ItemState;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetComponent;
+import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerHead;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
 
-import com.github.drakescraft_labs.slimefun4.legacy.Objects.SlimefunItem.interfaces.InventoryBlock;
-import com.github.drakescraft_labs.slimefun4.legacy.api.inventory.BlockMenu;
+import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.interfaces.InventoryBlock;
+import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 
 import org.apache.commons.lang3.Validate;
 import org.bukkit.Location;

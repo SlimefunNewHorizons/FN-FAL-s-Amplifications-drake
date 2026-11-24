@@ -8,14 +8,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
-import com.github.drakescraft_labs.slimefun4.core.handlers.BlockBreakHandler;
-import com.github.drakescraft_labs.slimefun4.core.handlers.BlockPlaceHandler;
-import com.github.drakescraft_labs.slimefun4.implementation.Slimefun;
-import com.github.drakescraft_labs.slimefun4.libraries.dough.items.CustomItemStack;
-import com.github.drakescraft_labs.slimefun4.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
+import io.github.thebusybiscuit.slimefun4.core.handlers.BlockPlaceHandler;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
 
-import com.github.drakescraft_labs.slimefun4.legacy.api.BlockStorage;
-import com.github.drakescraft_labs.slimefun4.legacy.api.inventory.BlockMenu;
+import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 
 import ne.fnfal113.fnamplifications.FNAmplifications;
 import ne.fnfal113.fnamplifications.utils.Utils;
@@ -32,17 +32,17 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemStack;
 
-import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 
-import com.github.drakescraft_labs.slimefun4.libraries.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
 import io.papermc.lib.PaperLib;
 
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
-import com.github.drakescraft_labs.slimefun4.legacy.Objects.SlimefunItem.interfaces.InventoryBlock;
-import com.github.drakescraft_labs.slimefun4.legacy.Objects.handlers.BlockTicker;
+import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.interfaces.InventoryBlock;
+import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 
 public class CustomMaterialGenerator extends SlimefunItem implements InventoryBlock {
 
